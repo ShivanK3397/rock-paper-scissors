@@ -1,0 +1,13 @@
+body{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    text-align: center;
+    width: 395px;
+    font-weight: bold; 
+    color: p;   
+
+}
