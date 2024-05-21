@@ -1,7 +1,13 @@
-body{
+.body{
     background-color: lightgoldenrodyellow;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+body{
+    background-color: lightgoldenrodyellow;
 }
 
 .header{
@@ -10,4 +16,24 @@ body{
     font-weight: bold; 
     color: p;   
 
+}
+button{
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.buttons{
+    
+    display: flex;
+    gap:200px;
+}
+
+.scores{
+    display: flex;
+    font-weight: bold;
+    gap :200px;
+    font-size: 24px;
 }
